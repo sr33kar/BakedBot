@@ -1,0 +1,154 @@
+[
+  {
+    "name": "Chamomile",
+    "properties": "Mild, floral aroma; known for calming effects",
+    "common_effects": [
+      "relaxation",
+      "improved sleep"
+    ]
+  },
+  {
+    "name": "Lavender",
+    "properties": "Floral, slightly sweet aroma; promotes relaxation and stress relief",
+    "common_effects": [
+      "relaxation",
+      "stress relief"
+    ]
+  },
+  {
+    "name": "Arabica Coffee",
+    "properties": "Rich, bold flavor; contains natural caffeine for energy",
+    "common_effects": [
+      "energy boost",
+      "improved focus"
+    ]
+  },
+  {
+    "name": "Guarana",
+    "properties": "Natural stimulant; provides sustained energy",
+    "common_effects": [
+      "energy boost",
+      "mental clarity"
+    ]
+  },
+  {
+    "name": "Orange",
+    "properties": "Sweet, tangy flavor; rich in vitamin C",
+    "common_effects": [
+      "immune support",
+      "energy boost"
+    ]
+  },
+  {
+    "name": "Ginger",
+    "properties": "Spicy, warming flavor; known for anti-inflammatory properties",
+    "common_effects": [
+      "immune support",
+      "digestive health"
+    ]
+  },
+  {
+    "name": "Turmeric",
+    "properties": "Earthy, slightly bitter flavor; contains curcumin for anti-inflammatory effects",
+    "common_effects": [
+      "immune support",
+      "anti-inflammatory"
+    ]
+  },
+  {
+    "name": "Valerian Root",
+    "properties": "Earthy, musky aroma; promotes relaxation and sleep",
+    "common_effects": [
+      "improved sleep",
+      "relaxation"
+    ]
+  },
+  {
+    "name": "Lemon Balm",
+    "properties": "Citrusy, mild flavor; known for calming effects",
+    "common_effects": [
+      "relaxation",
+      "stress relief"
+    ]
+  },
+  {
+    "name": "Green Tea",
+    "properties": "Light, grassy flavor; rich in antioxidants",
+    "common_effects": [
+      "detoxification",
+      "energy boost"
+    ]
+  },
+  {
+    "name": "Dandelion",
+    "properties": "Slightly bitter flavor; supports liver health",
+    "common_effects": [
+      "detoxification",
+      "digestive health"
+    ]
+  },
+  {
+    "name": "Mint",
+    "properties": "Cool, refreshing flavor; aids digestion",
+    "common_effects": [
+      "digestive health",
+      "relaxation"
+    ]
+  },
+  {
+    "name": "Matcha",
+    "properties": "Earthy, rich flavor; provides sustained energy",
+    "common_effects": [
+      "improved focus",
+      "energy boost"
+    ]
+  },
+  {
+    "name": "Almond Milk",
+    "properties": "Creamy, nutty flavor; dairy-free alternative",
+    "common_effects": [
+      "hydration",
+      "digestive health"
+    ]
+  },
+  {
+    "name": "Vanilla",
+    "properties": "Sweet, aromatic flavor; adds richness",
+    "common_effects": [
+      "relaxation",
+      "stress relief"
+    ]
+  },
+  {
+    "name": "Coconut Water",
+    "properties": "Light, slightly sweet flavor; rich in electrolytes",
+    "common_effects": [
+      "hydration",
+      "energy boost"
+    ]
+  },
+  {
+    "name": "Lemon",
+    "properties": "Tangy, citrus flavor; rich in vitamin C",
+    "common_effects": [
+      "immune support",
+      "detoxification"
+    ]
+  },
+  {
+    "name": "Himalayan Salt",
+    "properties": "Mineral-rich salt; supports electrolyte balance",
+    "common_effects": [
+      "hydration",
+      "digestive health"
+    ]
+  },
+  {
+    "name": "Black Pepper",
+    "properties": "Spicy, pungent flavor; enhances nutrient absorption",
+    "common_effects": [
+      "anti-inflammatory",
+      "digestive health"
+    ]
+  }
+]

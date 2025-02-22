@@ -1,0 +1,160 @@
+[
+  {
+    "id": 1,
+    "name": "Relaxation Tea",
+    "type": "beverage",
+    "description": "A soothing herbal tea blend designed for relaxation and stress relief.",
+    "effects": [
+      "relaxation",
+      "stress relief"
+    ],
+    "ingredients": [
+      "Chamomile",
+      "Lavender"
+    ],
+    "price": 12.99,
+    "sales_data": {
+      "units_sold": 120,
+      "last_month_revenue": 1558.8
+    }
+  },
+  {
+    "id": 2,
+    "name": "Energy Boost Coffee",
+    "type": "beverage",
+    "description": "A robust coffee blend infused with natural energy-boosting ingredients.",
+    "effects": [
+      "energy boost",
+      "improved focus"
+    ],
+    "ingredients": [
+      "Arabica Coffee",
+      "Guarana"
+    ],
+    "price": 15.99,
+    "sales_data": {
+      "units_sold": 95,
+      "last_month_revenue": 1519.05
+    }
+  },
+  {
+    "id": 3,
+    "name": "Immunity Support Juice",
+    "type": "beverage",
+    "description": "A refreshing juice packed with vitamins and antioxidants to boost immunity.",
+    "effects": [
+      "immune support",
+      "energy boost"
+    ],
+    "ingredients": [
+      "Orange",
+      "Ginger",
+      "Turmeric"
+    ],
+    "price": 9.99,
+    "sales_data": {
+      "units_sold": 200,
+      "last_month_revenue": 1998.0
+    }
+  },
+  {
+    "id": 4,
+    "name": "Sleep Well Tea",
+    "type": "beverage",
+    "description": "A calming tea blend to promote restful sleep and relaxation.",
+    "effects": [
+      "improved sleep",
+      "relaxation"
+    ],
+    "ingredients": [
+      "Valerian Root",
+      "Lemon Balm",
+      "Chamomile"
+    ],
+    "price": 14.99,
+    "sales_data": {
+      "units_sold": 80,
+      "last_month_revenue": 1199.2
+    }
+  },
+  {
+    "id": 5,
+    "name": "Detox Green Tea",
+    "type": "beverage",
+    "description": "A cleansing green tea blend with detoxifying properties.",
+    "effects": [
+      "detoxification",
+      "energy boost"
+    ],
+    "ingredients": [
+      "Green Tea",
+      "Dandelion",
+      "Mint"
+    ],
+    "price": 11.99,
+    "sales_data": {
+      "units_sold": 150,
+      "last_month_revenue": 1798.5
+    }
+  },
+  {
+    "id": 6,
+    "name": "Focus Matcha Latte",
+    "type": "beverage",
+    "description": "A creamy matcha latte designed to enhance focus and mental clarity.",
+    "effects": [
+      "improved focus",
+      "energy boost"
+    ],
+    "ingredients": [
+      "Matcha",
+      "Almond Milk",
+      "Vanilla"
+    ],
+    "price": 16.99,
+    "sales_data": {
+      "units_sold": 60,
+      "last_month_revenue": 1019.4
+    }
+  },
+  {
+    "id": 7,
+    "name": "Hydration Boost Water",
+    "type": "beverage",
+    "description": "A flavored water infused with electrolytes for optimal hydration.",
+    "effects": [
+      "hydration",
+      "energy boost"
+    ],
+    "ingredients": [
+      "Coconut Water",
+      "Lemon",
+      "Himalayan Salt"
+    ],
+    "price": 7.99,
+    "sales_data": {
+      "units_sold": 300,
+      "last_month_revenue": 2397.0
+    }
+  },
+  {
+    "id": 8,
+    "name": "Anti-Inflammatory Turmeric Shot",
+    "type": "beverage",
+    "description": "A potent shot of turmeric and ginger to reduce inflammation.",
+    "effects": [
+      "anti-inflammatory",
+      "immune support"
+    ],
+    "ingredients": [
+      "Turmeric",
+      "Ginger",
+      "Black Pepper"
+    ],
+    "price": 5.99,
+    "sales_data": {
+      "units_sold": 250,
+      "last_month_revenue": 1497.5
+    }
+  }
+]

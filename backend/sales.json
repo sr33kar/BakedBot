@@ -1,0 +1,170 @@
+[
+  {
+    "product_id": 1,
+    "daily_sales": [
+      {
+        "date": "2025-01-01",
+        "units_sold": 5
+      },
+      {
+        "date": "2025-01-02",
+        "units_sold": 7
+      },
+      {
+        "date": "2025-01-03",
+        "units_sold": 6
+      },
+      {
+        "date": "2025-01-04",
+        "units_sold": 8
+      }
+    ]
+  },
+  {
+    "product_id": 2,
+    "daily_sales": [
+      {
+        "date": "2025-01-01",
+        "units_sold": 3
+      },
+      {
+        "date": "2025-01-02",
+        "units_sold": 4
+      },
+      {
+        "date": "2025-01-03",
+        "units_sold": 5
+      },
+      {
+        "date": "2025-01-04",
+        "units_sold": 6
+      }
+    ]
+  },
+  {
+    "product_id": 3,
+    "daily_sales": [
+      {
+        "date": "2025-01-01",
+        "units_sold": 10
+      },
+      {
+        "date": "2025-01-02",
+        "units_sold": 12
+      },
+      {
+        "date": "2025-01-03",
+        "units_sold": 11
+      },
+      {
+        "date": "2025-01-04",
+        "units_sold": 13
+      }
+    ]
+  },
+  {
+    "product_id": 4,
+    "daily_sales": [
+      {
+        "date": "2025-01-01",
+        "units_sold": 4
+      },
+      {
+        "date": "2025-01-02",
+        "units_sold": 5
+      },
+      {
+        "date": "2025-01-03",
+        "units_sold": 6
+      },
+      {
+        "date": "2025-01-04",
+        "units_sold": 7
+      }
+    ]
+  },
+  {
+    "product_id": 5,
+    "daily_sales": [
+      {
+        "date": "2025-01-01",
+        "units_sold": 8
+      },
+      {
+        "date": "2025-01-02",
+        "units_sold": 9
+      },
+      {
+        "date": "2025-01-03",
+        "units_sold": 10
+      },
+      {
+        "date": "2025-01-04",
+        "units_sold": 11
+      }
+    ]
+  },
+  {
+    "product_id": 6,
+    "daily_sales": [
+      {
+        "date": "2025-01-01",
+        "units_sold": 2
+      },
+      {
+        "date": "2025-01-02",
+        "units_sold": 3
+      },
+      {
+        "date": "2025-01-03",
+        "units_sold": 4
+      },
+      {
+        "date": "2025-01-04",
+        "units_sold": 5
+      }
+    ]
+  },
+  {
+    "product_id": 7,
+    "daily_sales": [
+      {
+        "date": "2025-01-01",
+        "units_sold": 15
+      },
+      {
+        "date": "2025-01-02",
+        "units_sold": 16
+      },
+      {
+        "date": "2025-01-03",
+        "units_sold": 17
+      },
+      {
+        "date": "2025-01-04",
+        "units_sold": 18
+      }
+    ]
+  },
+  {
+    "product_id": 8,
+    "daily_sales": [
+      {
+        "date": "2025-01-01",
+        "units_sold": 12
+      },
+      {
+        "date": "2025-01-02",
+        "units_sold": 13
+      },
+      {
+        "date": "2025-01-03",
+        "units_sold": 14
+      },
+      {
+        "date": "2025-01-04",
+        "units_sold": 15
+      }
+    ]
+  }
+]
