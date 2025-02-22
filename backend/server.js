@@ -6,6 +6,10 @@ require("dotenv").config();
 const app = express();
 const port = 3000;
 
+var cors = require('cors')
+
+app.use(cors()) // Use this after the variable declaration
+
 // Load JSON datasets
 const products = JSON.parse(fs.readFileSync("products.json"));
 const ingredients = JSON.parse(fs.readFileSync("ingredients.json"));
@@ -113,6 +117,12 @@ app.get("/product/:productId", async (req, res) => {
     sales: productSales || {}
   });
 });
+
+// Get All Products
+app.get("/products", (req, res) => {
+  res.json(products);
+});
+
 
 // Start Server
 app.listen(port, () => {

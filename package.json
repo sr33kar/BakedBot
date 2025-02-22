@@ -1,8 +1,26 @@
 {
   "dependencies": {
+    "@dqbd/tiktoken": "^1.0.20",
+    "@types/fs-extra": "^11.0.4",
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "console-table-printer": "^2.12.1",
+    "cors": "^2.8.5",
+    "crewai": "^1.0.1",
     "dotenv": "^16.4.7",
+    "embedchain": "^0.0.8",
     "express": "^4.21.2",
     "fs": "^0.0.1-security",
-    "groq-sdk": "^0.15.0"
+    "fs-extra": "^11.3.0",
+    "groq-sdk": "^0.15.0",
+    "js-yaml": "^4.1.0",
+    "langchain": "^0.3.19",
+    "openai": "^4.85.3",
+    "path": "^0.12.7",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "uuid": "^11.1.0",
+    "winston": "^3.17.0",
+    "zod": "^3.24.2"
   }
 }
