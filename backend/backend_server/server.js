@@ -6,6 +6,10 @@ require("dotenv").config();
 const app = express();
 const port = 3000;
 
+var cors = require('cors')
+
+app.use(cors()) // Use this after the variable declaration
+
 // Load JSON datasets
 const products = JSON.parse(fs.readFileSync("products.json"));
 const ingredients = JSON.parse(fs.readFileSync("ingredients.json"));
@@ -62,7 +66,7 @@ app.get("/recommendations/:productId", async (req, res) => {
       model: "llama-3.1-8b-instant",
       messages: [
         { role: "system", content: "You are an AI that explains product recommendations based on user preferences and sales data." },
-        { role: "user", content: `Recommend ${rec.name} to someone interested in ${product.name}, considering its recent sales trends. Keep it short.` }
+        { role: "user", content: `Recommend ${rec.name} to someone interested in ${product.name}, considering its recent sales trends. Keep it 2 lines and about the relation.` }
       ]
     });
 
@@ -112,6 +116,11 @@ app.get("/product/:productId", async (req, res) => {
     enrichedDescription: response.choices[0].message.content,
     sales: productSales || {}
   });
+});
+
+// Get All Products
+app.get("/products", (req, res) => {
+  res.json(products);
 });
 
 // Start Server
