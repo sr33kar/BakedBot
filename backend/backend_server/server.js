@@ -66,7 +66,7 @@ app.get("/recommendations/:productId", async (req, res) => {
       model: "llama-3.1-8b-instant",
       messages: [
         { role: "system", content: "You are an AI that explains product recommendations based on user preferences and sales data." },
-        { role: "user", content: `Recommend ${rec.name} to someone interested in ${product.name}, considering its recent sales trends. Keep it 2 lines and about the relation.` }
+        { role: "user", content: `Recommend ${rec.name} to someone interested in ${product.name}, considering its recent sales trends. Keep it short to 1 line and no formating or text styles.` }
       ]
     });
 
@@ -119,8 +119,42 @@ app.get("/product/:productId", async (req, res) => {
 });
 
 // Get All Products
-app.get("/products", (req, res) => {
-  res.json(products);
+// Get All Products with AI-Enhanced Descriptions
+app.get("/products", async (req, res) => {
+  try {
+    // Retrieve ingredient descriptions
+    const ingredientMap = {};
+    ingredients.forEach((ing) => {
+      ingredientMap[ing.name] = ing.properties;
+    });
+
+    // Enhance descriptions for all products
+    const enhancedProducts = await Promise.all(products.map(async (product) => {
+      const enrichedDescription =
+        product.description +
+        " This product contains: " +
+        product.ingredients.map((ing) => `${ing} - ${ingredientMap[ing] || "No details available"}`).join(", ");
+
+      // Generate AI-Augmented Description
+      const response = await groq.chat.completions.create({
+        model: "llama-3.1-8b-instant",
+        messages: [
+          { role: "system", content: "You are an AI that enhances product descriptions based on sales trends and customer interest." },
+          { role: "user", content: `Rewrite this product description: ${enrichedDescription}. Highlight why it's a popular choice. Keep it short to 1 line and no formating or text styles.` }
+        ]
+      });
+
+      return {
+        ...product,
+        enhanced_description: response.choices[0].message.content
+      };
+    }));
+
+    res.json(enhancedProducts);
+  } catch (error) {
+    console.error("Error enhancing product descriptions:", error);
+    res.status(500).json({ message: "Failed to enhance product descriptions" });
+  }
 });
 
 // Start Server

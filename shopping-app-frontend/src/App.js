@@ -75,7 +75,7 @@ const ShoppingApp = () => {
               onClick={(e) => e.stopPropagation()}
             />
             <h2>{product.name}</h2>
-            <p>{product.description}</p>
+            <p>{product.enhanced_description}</p>
             <p><strong>Price:</strong> ${product.price.toFixed(2)}</p>
           </div>
         ))}
