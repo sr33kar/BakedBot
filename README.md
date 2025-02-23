@@ -51,11 +51,24 @@ GROQ_API_KEY=your_api_key_here
 2. Navigate to the API section and generate a new API key.
 3. Copy the key and paste it into the `.env` file.
 
+#### Customizing the Recommendation Model
+
+The app uses a **Groq API** to generate recommendations. You can customize the model used for recommendations by modifying the `model` parameter in the following code snippet:
+
+```javascript
+const response = await groq.chat.completions.create({
+  model: "llama-3.1-8b-instant", // Change this to your preferred model
+  messages: [
+    { role: "system", content: "You are an AI that explains product recommendations based on user preferences and sales data." },
+    { role: "user", content: `Recommend ${rec.name} to someone interested in ${product.name}, considering its recent sales trends. Keep it 2 lines and about the relation.` }
+  ]
+});
+```
 Run the backend server:
 ```sh
 npm start
 ```
-The backend should now be running on `http://localhost:5000` (or the port specified in `server.js`).
+The backend should now be running on `http://localhost:3000` (or the port specified in `server.js`).
 
 ### 3. Set Up Frontend
 Navigate to the frontend folder and install dependencies:
